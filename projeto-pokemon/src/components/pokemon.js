@@ -8,7 +8,7 @@ function Pokemon(props){
                 <Imagem imagem={props.imagem}/>
             </div>
             <div className="col-8" class="text-center">
-                <Desc nome={props.nome} tipo={props.tipo} habilidades={props.habilidades} ataques = {props.ataques} ataques_2 = {props.ataques_2}/>
+                <Desc pokemon = {props.pokemon} controle = {props.controle}/>
             </div>
         </div>
       
